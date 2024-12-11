@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bookstore"
+version = "0.1.0"
+description = "bookstore api"
+authors = ["Juliana Rodrigues <juliana.rodrigues-29@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.1.4"
+djangorestframework = "^3.15.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+factory-boy = "^3.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
